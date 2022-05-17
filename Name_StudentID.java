@@ -11,8 +11,10 @@ public class Name_StudentID {
         String b = sc.next();
         System.out.print("학과를 입력하세요: ");
         String c = sc.next();
+        System.out.print("대학교를 입력하세요: ");
+        String d = sc.next();
 
-        System.out.println("\n<출력>\n이름: " + a + "\n학번: " + b + "\n학과: " + c);
+        System.out.println("\n<출력>\n이름: " + a + "\n학번: " + b + "\n학과: " + c + "\n대학교: " + d);
 
         sc.close();
     }
